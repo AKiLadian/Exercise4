@@ -10,6 +10,11 @@ int main ()
     int times;
     char isheads[6] = "Heads";
     char istails[6] = "Tails";
+    char name[10];
+
+    printf("Who are you? (insert your name with less than 10 charcters)\n");
+    scanf("%s", name);
+    printf("Hello, %s!\n", name);
 
     printf("Tossing a coin...\n");
     srand(time(NULL));
