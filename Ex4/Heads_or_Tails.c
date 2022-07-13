@@ -32,8 +32,8 @@ int main ()
     }
 
     printf("Heads: %d, Tails: %d\n", heads, tails);
-    if(count > 1) printf("You won\n");
-    else printf("You lost\n");
+    if(count > 1) printf("%s won!\n", name);
+    else printf("%s lost...\n", name);
 
     return 0;
 }
