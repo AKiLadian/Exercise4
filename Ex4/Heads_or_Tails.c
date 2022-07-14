@@ -29,6 +29,8 @@ int main ()
     }
 
     printf("Heads: %d, Tails: %d\n", heads, times - heads);
+    if(heads > 1) printf("You won!\n");
+    else printf("You lost...\n");
 
     return 0;
 }
